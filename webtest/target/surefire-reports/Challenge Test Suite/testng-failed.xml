@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Challenge Test Suite]">
+  <parameter name="lastName" value="automation"/>
+  <parameter name="country" value="United States"/>
+  <parameter name="year" value="2000"/>
+  <parameter name="address2" value="Greenville"/>
+  <parameter name="city" value="Dallas"/>
+  <parameter name="address1" value="Dallas,Tx,75001"/>
+  <parameter name="postalCode" value="75001"/>
+  <parameter name="mobile" value="5417543210"/>
+  <parameter name="emailId" value="testUser"/>
+  <parameter name="url" value="http://automationpractice.com/index.php"/>
+  <parameter name="firstName" value="testuser"/>
+  <parameter name="password" value="testpassword"/>
+  <parameter name="month" value="1"/>
+  <parameter name="phone" value="5417543010"/>
+  <parameter name="alias" value="testing"/>
+  <parameter name="company" value="automation"/>
+  <parameter name="state" value="northTexas"/>
+  <parameter name="day" value="1"/>
+  <parameter name="others" value="testText"/>
+  <test name="Testing Parameterization(failed)">
+    <parameter name="lastName" value="automation"/>
+    <parameter name="country" value="United States"/>
+    <parameter name="year" value="2000"/>
+    <parameter name="address2" value="Greenville"/>
+    <parameter name="city" value="Dallas"/>
+    <parameter name="address1" value="Dallas,Tx,75001"/>
+    <parameter name="postalCode" value="75001"/>
+    <parameter name="mobile" value="5417543210"/>
+    <parameter name="emailId" value="testUser"/>
+    <parameter name="url" value="http://automationpractice.com/index.php"/>
+    <parameter name="firstName" value="testuser"/>
+    <parameter name="password" value="testpassword"/>
+    <parameter name="month" value="1"/>
+    <parameter name="phone" value="5417543010"/>
+    <parameter name="alias" value="testing"/>
+    <parameter name="company" value="automation"/>
+    <parameter name="state" value="northTexas"/>
+    <parameter name="day" value="1"/>
+    <parameter name="others" value="testText"/>
+    <classes>
+      <class name="org.naic.mfl.se.challenge.WebTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="signInTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.naic.mfl.se.challenge.WebTest -->
+    </classes>
+  </test> <!-- Testing Parameterization(failed) -->
+</suite> <!-- Failed suite [Challenge Test Suite] -->

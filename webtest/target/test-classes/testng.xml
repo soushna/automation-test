@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Challenge Test Suite">
+    <parameter name="url" value="http://automationpractice.com/index.php"/>
+    <test name="Testing Parameterization">
+        <parameter name="url" value="http://automationpractice.com/index.php"/>
+        <parameter name="emailId" value="testUser"/>
+        <parameter name="firstName" value="testuser"/>
+        <parameter name="lastName" value="automation"/>
+        <parameter name="password" value="testpassword"/>
+        <parameter name="day" value="1"/>
+        <parameter name="month" value="1"/>
+        <parameter name="year" value="2000"/>
+        <parameter name="company" value="automation"/>
+        <parameter name="address1" value="Dallas,Tx,75001"/>
+        <parameter name="address2" value="Greenville"/>
+        <parameter name="city" value="Dallas"/>
+        <parameter name="state" value="northTexas"/>
+        <parameter name="postalCode" value="75001"/>
+        <parameter name="others" value="testText"/>
+        <parameter name="phone" value="5417543010"/>
+        <parameter name="mobile" value="5417543210"/>
+        <parameter name="alias" value="testing"/>
+        <parameter name="country" value="United States"/>
+        <classes>
+            <class name="org.naic.mfl.se.challenge.WebTest" />
+        </classes>
+    </test>
+</suite>
